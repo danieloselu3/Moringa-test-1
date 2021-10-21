@@ -181,14 +181,38 @@ header {
 .site-product-details {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 10px; }
 
 .product-upper-section,
 .product-lower-section {
   padding: 10px;
-  margin: 10px; }
+  margin: 10px 20px; }
 
 .site-product-details h3 {
-  color: #c6bfa5; }
+  color: #c6bfa5;
+  font-weight: 400; }
+
+.about-us-section {
+  background: url("../assets/backgrounds/about.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; }
+
+.about-us-section h3 {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 30px; }
+
+.about-us-content {
+  text-align: center; }
+
+.about-us-section p {
+  font-size: 22px;
+  line-height: 1.5rem; }
 
 /*# sourceMappingURL=styles.css.map */
