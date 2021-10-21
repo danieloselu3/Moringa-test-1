@@ -258,3 +258,20 @@ header {
   font-size: 22px;
   line-height: 1.5rem;
 }
+
+.first-sale-call-to-action {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #535154;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.first-sale-call-to-action img {
+  height: 20px;
+  margin-right: 40px;
+}
