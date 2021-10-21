@@ -63,9 +63,7 @@ Grid
   padding-right: 0px;
   width: 100%; }
 
-.primary-header,
-.product-section
- {
+.primary-header {
   padding-left: 50px;
   padding-right: 50px;
   margin: 0 auto;
@@ -174,5 +172,60 @@ header {
   background-color: #661a00;
 }
 
+.product-section
+ {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px auto;
+}
+
+// .product-upper-section, .product-upper-section-heading {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .product-upper-section-heading-top {
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+// }
 
 
+.product-upper-section-product-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.site-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f5f5f7;
+  padding: 20px 30px;
+  width: 280px;
+  height: 320px;
+}
+
+.site-product-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-product-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-upper-section,
+.product-lower-section {
+  padding: 10px;
+  margin: 10px;
+}
+
+.site-product-details h3 {
+  color: #c6bfa5;
+}
