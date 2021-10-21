@@ -64,10 +64,11 @@ Grid
   width: 100%; }
 
 .primary-header,
-.site-main-section,
-.primary-footer {
+.product-section
+ {
   padding-left: 50px;
   padding-right: 50px;
+  margin: 0 auto;
 }
 
 
@@ -81,7 +82,7 @@ header {
   background: url("../assets/backgrounds/hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 800px;
+  height: 780px;
 }
 
 .primary-header {
@@ -143,8 +144,35 @@ header {
   padding: 10px;
 }
 
+.product-category-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 120px;
+  background-color: #c6bfa5;
+}
 
+.product-category form {
+  display: flex;
+  flex-direction: row;
+}
 
+.product-category div {
+  padding: 10px;
+  margin: 10px;
+}
+
+.product-category-button button{
+  padding: 10px 20px;
+  margin: auto 30px;
+  border: none;
+  border-radius: 2.5px;
+  color: #ffffff;
+  background-color: #661a00;
+}
 
 
 
