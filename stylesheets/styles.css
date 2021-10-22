@@ -283,4 +283,10 @@ footer {
 .primary-footer-area-3 h3 {
   font-size: 20px; }
 
+.primary-footer-credits {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 5px; }
+
 /*# sourceMappingURL=styles.css.map */
