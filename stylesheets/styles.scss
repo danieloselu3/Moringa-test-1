@@ -47,6 +47,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  text-decoration: none;
+}
+
 /*
 ========================================
 Grid
@@ -124,6 +128,15 @@ header {
   margin-right: 30px;
 }
 
+#primary-navigation nav ul li a{
+  color: #ffffff;
+}
+
+#primary-navigation nav ul li a:hover {
+  border-bottom: 3px solid #661a00;
+  padding-bottom: 5px;
+}
+
 .primary-nav-mission,
 .primary-nav-description
 {
@@ -182,6 +195,11 @@ header {
   background-color: #661a00;
 }
 
+.product-category-button button:hover {
+  background-color: #ffffff;
+  color: #661a00;
+}
+
 .product-section
  {
   padding-left: 50px;
@@ -216,6 +234,11 @@ header {
   padding: 20px 30px;
   width: 30%;
   max-width: 280px;
+}
+
+.site-product:hover {
+  border: 2px solid #a99b76;
+  opacity: 0.75;
 }
 
 .site-product-image {
