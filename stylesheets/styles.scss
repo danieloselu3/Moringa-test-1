@@ -28,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+}
 
 ol, ul {
   list-style: none; }
@@ -80,13 +82,14 @@ header {
   background: url("../assets/backgrounds/hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 780px;
+  height: 100%;
 }
 
 .primary-header {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
+  padding-bottom: 40px;
   color: #ffffff;
 }
 
@@ -96,6 +99,14 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 150px;
+}
+
+.primary-header-lower-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 485px;
 }
 
 .site-primary-nav-section {
@@ -113,7 +124,6 @@ header {
   margin-right: 30px;
 }
 
-.primary-header-lower-section,
 .primary-nav-mission,
 .primary-nav-description
 {
@@ -135,7 +145,7 @@ header {
 
 .primary-header-lower-section-statements {
   padding: 5px;
-  margin-bottom: 250px;
+  // margin-bottom: 250px;
 }
 
 .primary-nav-mouse-click img {
@@ -176,7 +186,8 @@ header {
  {
   padding-left: 50px;
   padding-right: 50px;
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 // .product-upper-section, .product-upper-section-heading {
@@ -203,8 +214,8 @@ header {
   justify-content: space-between;
   background-color: #f5f5f7;
   padding: 20px 30px;
-  width: 280px;
-  height: 320px;
+  width: 30%;
+  max-width: 280px;
 }
 
 .site-product-image {
@@ -236,7 +247,8 @@ header {
 .about-us-section {
   background: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
-  height: 400px;
+  background-size: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,18 +257,21 @@ header {
 }
 
 .about-us-section h3 {
-  font-size: 20px;
-  padding: 10px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
 }
 
 .about-us-content {
   text-align: center;
+  padding: 40px 80px 10px 80px;
+  margin-bottom: 30px;
+  border: 2px solid #908361;
 }
 
 .about-us-section p{
   font-size: 22px;
-  line-height: 1.5rem;
+  line-height: 1.5em;
 }
 
 .first-sale-call-to-action {
@@ -298,6 +313,10 @@ color: #ffffff;
   padding-bottom: 30px;
 }
 
+.primary-footer-area-1 {
+  width: 30%;
+}
+
 .primary-footer-area-1 h3{
   padding: 5px;
   font-size: 22px;
@@ -313,6 +332,7 @@ color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 35%;
 }
 
 .primary-footer-area-2 h3 {
@@ -322,13 +342,14 @@ color: #ffffff;
 }
 
 .primary-footer-area-2 img {
-  margin: 10px;
+  margin: 5px;
 }
 
 .primary-footer-area-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
 }
 
 .primary-footer-area-3 div {
@@ -345,5 +366,22 @@ color: #ffffff;
   justify-content: center;
   padding: 5px;
   margin-bottom: 5px;
+}
+
+/*
+====================
+Responsiveness
+====================
+*/
+@media only screen and (max-width: 1270px) {
+  /* For laptop 1270 */
+  .primary-header-lower-section {
+    height: 300px;
+  }
+
+  .primary-header-top-section {
+    margin-bottom: 100px;
+  }
+
 }
 
